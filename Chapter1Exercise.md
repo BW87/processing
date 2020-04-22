@@ -9,7 +9,7 @@
 ### 랜덤하게 색을 바꾸는데에 random()를 이용했습니다.
 
 ##### 코드
-,,,
+```
 int count = 0;<br>
 void setup(){<br>
   size(640,640);<br>
@@ -27,4 +27,4 @@ void draw(){<br>
     }<br>
   }<br>
 }<br>
-,,,
+```
