@@ -10,21 +10,21 @@
 
 ##### 코드
 ```
-int count = 0;<br>
-void setup(){<br>
-  size(640,640);<br>
-  background(255);<br>
-  strokeWeight(16);<br>
-  stroke(0,0,0);<br>
-}<br>
-void draw(){<br>
-  if(mousePressed){<br>
-    if(mouseButton == LEFT){<br>
-      line(pmouseX, pmouseY, mouseX, mouseY);<br>
-    }<br>
-    else if(mouseButton == RIGHT){<br>
-       stroke(random(0,255), random(0,255), random(0,255));<br>
-    }<br>
-  }<br>
-}<br>
+int count = 0;
+void setup(){
+  size(640,640);
+  background(255);
+  strokeWeight(16);
+  stroke(0,0,0);
+}
+void draw(){
+  if(mousePressed){
+    if(mouseButton == LEFT){
+      line(pmouseX, pmouseY, mouseX, mouseY);
+    }
+    else if(mouseButton == RIGHT){
+       stroke(random(0,255), random(0,255), random(0,255));
+    }
+  }
+}
 ```
